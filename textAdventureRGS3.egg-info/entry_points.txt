@@ -1,0 +1,2 @@
+[console_scripts]
+textAdventure = textAdventureRGS3.textAdventure3:main
