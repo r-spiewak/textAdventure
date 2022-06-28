@@ -639,7 +639,7 @@ def mergeDict(dict1,dict2):
 		dict1[ii].extend(dict2[ii])
 	return
 
-def main(debug):
+def main(debug=0):
   allArgs=sys.argv
   inputArgs=allArgs[1:]
   shortOpts="d"
