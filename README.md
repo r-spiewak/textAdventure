@@ -16,12 +16,13 @@ C:> py -m pip install -e "vcs+protocol://repo_url/#egg=pkg&subdirectory=pkg_dir"
 
 Linux and Mac (do not include the leading '`$`'):
 ```
-$ python -m pip install -e "git+https://git.example.com/myproject/#egg=textAdventureRGS3&subdirectory=pkg_dir"
+$ python -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventureRGS3"
 ```
 <!--
 Mac:
 ```
 $ python -m pip install -e "vcs+protocol://repo_url/#egg=pkg&subdirectory=pkg_dir"
+https://github.com/r-spiewak/textAdventure/#egg=textAdventureRGS3&subdirectory=pkg_dir
 ```
 -->
 
