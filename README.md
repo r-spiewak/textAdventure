@@ -11,12 +11,12 @@ This can be installed using the Python package installer `pip` (a suitable versi
 
 Windows (do not include the leading '`C:>`'):
 ```
-C:> py -m pip install -e "vcs+protocol://repo_url/#egg=pkg&subdirectory=pkg_dir"
+C:> py -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventure"
 ```
 
 Linux and Mac (do not include the leading '`$`'):
 ```
-$ python -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventureRGS3"
+$ python -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventure"
 ```
 <!--
 Mac:
