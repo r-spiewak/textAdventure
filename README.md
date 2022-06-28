@@ -26,6 +26,8 @@ https://github.com/r-spiewak/textAdventure/#egg=textAdventureRGS3&subdirectory=p
 ```
 -->
 
+*Note: it may be neccessary to run `python3` instead of `python`, depending upon your version of Python.*
+
 ## Running the Example
 
 After installation (see above), the example should be runnable with the following command line interface (cli):
