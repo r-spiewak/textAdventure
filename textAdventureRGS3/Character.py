@@ -1,4 +1,4 @@
-import Chest
+from . import Chest
 class Character:
 	def __init__(self,name='adventurer',health=100,inventory=None,hideInventory=0,attack=10,activity=None,description=None,speech=None):
 		self.name=name

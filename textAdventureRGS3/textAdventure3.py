@@ -283,19 +283,19 @@ leather
 '''
 
 import sys, getopt
-import Character
-import Adventurer
-import TextImages
-import Door
-import Room
+from . import Character
+from . import Adventurer
+from . import TextImages
+from . import Door
+from . import Room
 import re
-import Lock
+from . import Lock
 import string
 import random
-import Item
-import Puzzle
-import Potion
-import Chest
+from . import Item
+from . import Puzzle
+from . import Potion
+from . import Chest
 
 debug=0
 

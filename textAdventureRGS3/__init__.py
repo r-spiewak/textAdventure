@@ -1,4 +1,5 @@
 #import *
+'''
 import Character
 import Adventurer
 import Item
@@ -9,3 +10,4 @@ import Puzzle
 import Room
 import Potion
 import TextImages
+'''

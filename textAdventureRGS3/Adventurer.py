@@ -1,5 +1,5 @@
-import Character
-import Chest
+from . import Character
+from . import Chest
 class Adventurer(Character.Character):
 	def __init__(self,name='adventurer',health=100,inventory=None,hideInventory=0,attack=10,activity=None,description=None,speech=None):
 		#pass

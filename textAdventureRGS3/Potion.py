@@ -1,4 +1,4 @@
-import Item
+from . import Item
 class potion(Item.item):
 	def __init__(self,name='redPotion',takeable=1,status=0,itemType='potion',attack=0,defense=100,inventory=None,hideInventory=0,hasInventory=0,description=None,message=None):
 		Item.item.__init__(self,name,takeable,status,itemType,attack,defense,inventory,hideInventory,hasInventory,description,message)

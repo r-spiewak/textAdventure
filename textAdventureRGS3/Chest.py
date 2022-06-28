@@ -1,4 +1,4 @@
-import Item
+from . import Item
 class chest(Item.item):
 	def __init__(self,name='woodenChest',takeable=0,status=1,itemType='chest',attack=0,defense=0,inventory=None,hideInventory=1,hasInventory=1,description=None,message=None,lock=None):
 		Item.item.__init__(self,name,takeable,status,itemType,attack,defense,inventory,hideInventory,hasInventory,description,message)
