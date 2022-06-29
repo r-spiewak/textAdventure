@@ -28,6 +28,18 @@ https://github.com/r-spiewak/textAdventure/#egg=textAdventureRGS3&subdirectory=p
 
 *Note: it may be neccessary to run `python3` instead of `python`, depending upon your version of Python.*
 
+Android:
+You need to install a terminal, `git`, and a suitable Python interpreter. Try the Termux (I have no affiliation with the app, but I was able to correctly install everything from it) app, from which you can run the following (the `$` on each line is the prompt in the terminal, not something you should enter):
+```
+$ apt-get update
+$ apt-get upgrade
+$ apt-get install git
+$ apt-get install python
+$ pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventureRGS3"
+```
+
+*Note: you may get warnings about unsigned packages. I installed them anyway, since without them this won't work, but I cannot and do not in any way guarantee their safety or security.*
+
 ## Running the Example
 
 After installation (see above), the example should be runnable with the following command line interface (cli):

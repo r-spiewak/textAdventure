@@ -13,6 +13,7 @@ textAdventureRGS3/Room.py
 textAdventureRGS3/TextImages.py
 textAdventureRGS3/__init__.py
 textAdventureRGS3/textAdventure3.py
+textAdventureRGS3.egg-info/Dummy
 textAdventureRGS3.egg-info/PKG-INFO
 textAdventureRGS3.egg-info/SOURCES.txt
 textAdventureRGS3.egg-info/dependency_links.txt
