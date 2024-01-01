@@ -5,18 +5,23 @@ This is a simple text adventure game built in Python using class objects.
 The source code is included in the distribution, but if you wish to play the example game, please do not peek. 
 <!--A map of the included game is also available upon request. However, this will really spoil the fun.-->
 
+## Requirements:
+- Python
+- Git
+- Some kind of terminal emulator
+
 ## Installation
 
 This can be installed using the Python package installer `pip` (a suitable version of Python must already be installed prior to using `pip`):
 
 Windows (do not include the leading '`C:>`'):
 ```
-C:> py -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventure"
+C:> py -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventurergs3"
 ```
 
 Linux and Mac (do not include the leading '`$`'):
 ```
-$ python -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventure"
+$ python -m pip install -e "git+https://github.com/r-spiewak/textAdventure/#egg=textAdventurergs3"
 ```
 <!--
 Mac:
